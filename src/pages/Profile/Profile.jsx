@@ -137,12 +137,14 @@ const Profile = () => {
 
   const serverUrlUploads = `${import.meta.env.VITE_SERVER_UPLOADS}`;
 
-
   return (
     <div id="profile">
       <div className="profile-header">
         {user.profileImage && (
-          <img src={`${serverUrlUploads}/users/${user.profileImage}`} alt={user.name} />
+          <img
+            src={`${serverUrlUploads}/users/${user.profileImage}`}
+            alt={user.name}
+          />
         )}
         <div className="profile-description">
           <h2>{user.name}</h2>
