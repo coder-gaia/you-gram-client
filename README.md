@@ -1,1 +1,1 @@
-### To see the frontend repository access: https://github.com/coder-gaia/you-gram_server
+### To see the backend repository access: https://github.com/coder-gaia/you-gram_server
